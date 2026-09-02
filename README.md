@@ -1,4 +1,4 @@
-# Fathima Anees A — Portfolio
+# Fathima Anees A Portfolio
 
 Personal portfolio site for **Fathima Anees A**, full stack developer
 (Java · Spring Boot · React), built as a dependency-free static site.
@@ -8,7 +8,7 @@ Personal portfolio site for **Fathima Anees A**, full stack developer
 ## Design
 
 The organising idea is *the stack itself*. The hero renders the four layers she
-works across — Client, API, Service, Data — as physical slabs with real depth
+works across (Client, API, Service, Data) as physical slabs with real depth
 that respond to the pointer, and the skills section is grouped the same way.
 Palette is violet and coral on a warm lilac paper; Bricolage Grotesque for
 display, Manrope for body, JetBrains Mono for labels.
@@ -43,6 +43,6 @@ Settings → Pages → Source: *Deploy from a branch* → `main` / `root`.
 ## Editing
 
 - Copy, contact details and every skill tag live in `index.html`.
-- Colours are CSS custom properties at the top of `styles.css` — `:root` for
+- Colours are CSS custom properties at the top of `styles.css`: `:root` for
   light, `[data-theme="dark"]` for dark.
 - Replacing `assets/Fathima_Anees_Resume.pdf` updates both resume links.
