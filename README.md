@@ -22,7 +22,7 @@ on first load and remembers an explicit choice in `localStorage`.
 index.html   markup and all copy
 styles.css   design tokens, layout, both themes
 script.js    theme switch, scroll reveal, stack parallax, scroll-spy
-assets/      portrait + résumé PDF
+assets/      portrait + resume PDF
 ```
 
 No build step, no dependencies.
@@ -45,4 +45,4 @@ Settings → Pages → Source: *Deploy from a branch* → `main` / `root`.
 - Copy, contact details and every skill tag live in `index.html`.
 - Colours are CSS custom properties at the top of `styles.css` — `:root` for
   light, `[data-theme="dark"]` for dark.
-- Replacing `assets/Fathima_Anees_Resume.pdf` updates both résumé links.
+- Replacing `assets/Fathima_Anees_Resume.pdf` updates both resume links.
